@@ -1,0 +1,15 @@
+package com.nuit.info.resources;
+
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+
+@Path("/connection/")
+public class ConnectionResource {
+
+	@POST
+	@Produces("text/plain")
+	public String hello() {
+	        return "Hello World!";
+	}
+}

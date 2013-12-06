@@ -1,0 +1,9 @@
+package com.nuit.info.models;
+
+public class Room {
+	
+	private ArrayList<String> buyers
+	
+	private ArrayList<String> sellers;
+
+}

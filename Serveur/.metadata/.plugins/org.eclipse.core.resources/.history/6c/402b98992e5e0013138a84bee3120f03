@@ -1,0 +1,47 @@
+package com.nuit.info.utils;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import com.nuit.info.models.Message;
+import com.nuit.info.models.User;
+
+public class DatabaseMockUp {
+
+	private static DatabaseMockUp instance = new DatabaseMockUp();
+	
+	private HashMap<String, User> userList;
+	private HashMap<String, User> connectedUser;
+	
+	private ArrayList<Message> messages;
+	
+	private Room room;
+	
+	private DatabaseMockUp() {
+		userList = new HashMap<String, User>();
+		connectedUser = new HashMap<String, User>();
+		userList.put("test", new User("test", "test"));
+	}
+	
+	public HashMap<String, User> getUserList() {
+		return userList;
+	}
+	
+	public HashMap<String, User> getConnectedUsers() {
+		return connectedUser;
+	}
+	
+	public ArrayList<Message> getMessages() {
+		return messages;
+	}
+	
+	public Room getRoom() {
+		return room;
+	}
+	
+	public static DatabaseMockUp getInstance() {
+		return instance;
+	}
+	
+	
+}

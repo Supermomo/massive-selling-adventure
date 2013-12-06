@@ -1,0 +1,10 @@
+package com.nuit.info.resources;
+
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+
+@Path("/connection/")
+public class ConnectionResource {
+
+	@POST
+}

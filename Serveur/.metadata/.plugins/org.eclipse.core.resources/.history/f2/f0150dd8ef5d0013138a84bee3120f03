@@ -1,0 +1,5 @@
+package com.nuit.info.resources;
+
+public class ConnectionResource {
+
+}

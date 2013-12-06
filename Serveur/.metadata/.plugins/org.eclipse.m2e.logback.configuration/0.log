@@ -1,0 +1,4 @@
+2013-12-05 19:00:07,300 [Worker-3] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=FB0DB267725C2B29E5C6E354B2A0ECF3; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/update_1.2.x/p2.index"
+2013-12-05 19:00:07,613 [Worker-3] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=E11E0E61D6FACFAEFE0F66926119F917; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/update_1.2.x/site.xml"
+2013-12-05 19:00:19,237 [Worker-3] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=C63A45885C1BB32B6CC3982E43966FF7; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/update/p2.index"
+2013-12-05 19:00:19,486 [Worker-3] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=CCBED0B6A3FB6003634F415789F8EC2F; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/update/site.xml"

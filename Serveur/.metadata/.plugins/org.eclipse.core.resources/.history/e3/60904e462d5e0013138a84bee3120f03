@@ -1,0 +1,15 @@
+package com.nuit.info.models;
+
+import java.util.ArrayList;
+
+public class Room {
+	
+	private ArrayList<String> buyers;
+	
+	private ArrayList<String> sellers;
+	
+	public Room() {
+		
+	}
+
+}

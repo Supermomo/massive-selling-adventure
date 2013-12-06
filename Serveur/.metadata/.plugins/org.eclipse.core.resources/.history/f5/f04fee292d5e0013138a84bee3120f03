@@ -1,0 +1,5 @@
+package com.nuit.info.models;
+
+public class Room {
+
+}

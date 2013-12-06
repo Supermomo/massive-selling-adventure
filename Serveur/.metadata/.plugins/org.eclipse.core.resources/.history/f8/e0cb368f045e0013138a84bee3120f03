@@ -1,0 +1,30 @@
+package com.nuit.info.resources;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+
+import com.nuit.info.models.User;
+import com.nuit.info.utils.DatabaseMockUp;
+
+@Path("/connection/")
+public class ConnectionResource {
+	
+	private DatabaseMockUp database = DatabaseMockUp.getInstance();
+
+	@POST
+	@Produces("application/json")
+	@Consumes("application/json")
+	public String connection(String pouet) {
+		return "{\"return\":\"true\"}";
+		/*
+		User user = database.getUserList().get(username);
+		if(user.getPassword().equals(password)) {
+			//TODO connection
+			return true;
+		}
+		return false;
+		*/
+	}
+}

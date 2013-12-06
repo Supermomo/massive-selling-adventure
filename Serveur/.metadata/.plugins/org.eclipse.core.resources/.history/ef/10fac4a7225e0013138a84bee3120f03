@@ -1,0 +1,11 @@
+package com.nuit.info.models;
+
+public class Message {
+	
+	private String username;
+	private String message;
+	
+	public Message() {
+		username = "";
+	}
+}

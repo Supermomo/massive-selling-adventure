@@ -1,0 +1,18 @@
+package com.nuit.info.utils;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.nuit.info.models.User;
+
+public class DatabaseMockUp {
+
+	public static DatabaseMockUp instance = new DatabaseMockUp();
+	
+	private static List<User> userList;
+	
+	private DatabaseMockUp() {
+		userlist = new ArrayList<User>();
+	}
+	
+}

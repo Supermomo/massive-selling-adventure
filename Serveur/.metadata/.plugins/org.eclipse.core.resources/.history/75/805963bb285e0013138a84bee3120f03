@@ -1,0 +1,8 @@
+package com.nuit.info.resources;
+
+import javax.ws.rs.Path;
+
+@Path("/interaction")
+public class InteractionResource {
+
+}

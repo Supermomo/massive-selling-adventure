@@ -1,0 +1,30 @@
+package com.nuit.info.resources;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+
+import com.google.appengine.labs.repackaged.org.json.JSONException;
+import com.google.appengine.labs.repackaged.org.json.JSONObject;
+import com.nuit.info.models.User;
+import com.nuit.info.utils.DatabaseMockUp;
+
+@Path("/interaction")
+public class InteractionResource {
+	
+	private DatabaseMockUp database = DatabaseMockUp.getInstance();
+	
+	@GET
+	@Path("/listBuyers")
+	@Produces("application/json")
+	@Consumes("application/json")
+	public String listBuyers() {
+		StringBuilder sb = new StringBuilder();
+		for(String s : database.getRoom().getBuyers()) {
+			
+		}
+	}
+
+}

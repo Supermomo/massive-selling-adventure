@@ -1,0 +1,7 @@
+package com.nuit.info.utils;
+
+public class DatabaseMockUp {
+
+	List<User> userList;
+	
+}

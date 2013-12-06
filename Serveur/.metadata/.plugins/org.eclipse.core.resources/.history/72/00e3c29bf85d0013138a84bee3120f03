@@ -1,0 +1,27 @@
+package com.nuit.info.utils;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import com.nuit.info.models.User;
+
+public class DatabaseMockUp {
+
+	private static DatabaseMockUp instance = new DatabaseMockUp();
+	
+	private HashMap<User> userList;
+	
+	private DatabaseMockUp() {
+		userList = new ArrayList<User>();
+		userList.add(new User("test", "test"));
+	}
+	
+	public List<User> getUserList() {
+		return userList;
+	}
+	
+	public static DatabaseMockUp getInstance() {
+		return instance;
+	}
+}

@@ -1,0 +1,45 @@
+Person :
+Saddark
+mdpSad
+cedric.cbt@gmail.com
+1
+True
+
+Person :
+Elphame
+mdpElph
+car@hotmail.fr
+2
+False
+
+Person :
+Riza
+hawkeye@hotmail.fr
+mdpRiza
+2
+False
+
+Room :
+Babies
+127.255.255.255:80
+Saddark
+Elphame
+
+Room :
+Clothes
+128.255.255.255:80
+Elphame
+
+Avatar :
+1
+url/imageFaceH
+url/ImageProfilH
+
+Avatar :
+2
+url/imageFaceG
+url/ImageProfilG
+
+Server :
+127.255.255.255:80
+
